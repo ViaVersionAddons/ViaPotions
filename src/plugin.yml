@@ -1,0 +1,9 @@
+name: ViaRewindPotions
+version: 0.0.1
+description: Translates thrown potions for ProtocolSupport and ViaRewind
+depend: [ProtocolLib]
+softdepend:
+  - "ProtocolSupport"
+  - "ViaRewind"
+  - "ViaRewind-Legacy-Support"
+main: twolovers.viarewindpotions.Main
