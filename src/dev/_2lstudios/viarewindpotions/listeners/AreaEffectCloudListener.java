@@ -1,6 +1,5 @@
-package twolovers.viarewindpotions.listeners;
+package dev._2lstudios.viarewindpotions.listeners;
 
-import twolovers.viarewindpotions.utils.VersionUtil;
 import org.bukkit.Location;
 import org.bukkit.entity.AreaEffectCloud;
 import org.bukkit.entity.Player;
@@ -8,6 +7,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.LingeringPotionSplashEvent;
 import org.bukkit.plugin.Plugin;
+
+import dev._2lstudios.viarewindpotions.utils.VersionUtil;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

@@ -1,4 +1,4 @@
-package twolovers.viarewindpotions.utils;
+package dev._2lstudios.viarewindpotions.utils;
 
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;

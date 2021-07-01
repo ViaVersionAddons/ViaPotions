@@ -6,4 +6,4 @@ softdepend:
   - "ProtocolSupport"
   - "ViaRewind"
   - "ViaRewind-Legacy-Support"
-main: twolovers.viarewindpotions.Main
+main: dev._2lstudios.viarewindpotions.Main

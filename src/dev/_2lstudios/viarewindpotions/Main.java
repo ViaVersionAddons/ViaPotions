@@ -1,14 +1,16 @@
-package twolovers.viarewindpotions;
+package dev._2lstudios.viarewindpotions;
 
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.ProtocolManager;
-import twolovers.viarewindpotions.listeners.AreaEffectCloudListener;
-import twolovers.viarewindpotions.listeners.SpawnEntityListener;
-import twolovers.viarewindpotions.adapters.WorldEventAdapter;
-import twolovers.viarewindpotions.utils.ConfigurationUtil;
-import twolovers.viarewindpotions.utils.VersionUtil;
+
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import dev._2lstudios.viarewindpotions.adapters.WorldEventAdapter;
+import dev._2lstudios.viarewindpotions.listeners.AreaEffectCloudListener;
+import dev._2lstudios.viarewindpotions.listeners.SpawnEntityListener;
+import dev._2lstudios.viarewindpotions.utils.ConfigurationUtil;
+import dev._2lstudios.viarewindpotions.utils.VersionUtil;
 
 public class Main extends JavaPlugin {
 	public void onEnable() {
