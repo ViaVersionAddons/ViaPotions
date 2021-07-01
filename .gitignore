@@ -1,2 +1,6 @@
-# Maven
-target/
+.project
+.vscode
+.settings
+.factorypath
+.classpath
+/target
