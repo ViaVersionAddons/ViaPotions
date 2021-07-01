@@ -1,6 +1,6 @@
-package twolovers.viarewindpotions.listeners;
+package dev._2lstudios.viarewindpotions.listeners;
 
-import twolovers.viarewindpotions.utils.VersionUtil;
+import dev._2lstudios.viarewindpotions.utils.VersionUtil;
 import org.bukkit.Location;
 import org.bukkit.entity.AreaEffectCloud;
 import org.bukkit.entity.Player;

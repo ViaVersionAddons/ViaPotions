@@ -1,6 +1,6 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>twolovers.viarewindpotions</groupId>
+  <groupId>dev._2lstudios.viarewindpotions</groupId>
   <artifactId>ViaPotions</artifactId>
   <version>0.0.2</version>
   <properties>
@@ -12,7 +12,7 @@
     <sourceDirectory>${basedir}/src/</sourceDirectory>
     <resources>
         <resource>
-          <directory>src/resources</directory>
+          <directory>${basedir}/resources/</directory>
         </resource>
       </resources>
     <plugins>
