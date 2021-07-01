@@ -1,0 +1,75 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>twolovers.viarewindpotions</groupId>
+  <artifactId>ViaPotions</artifactId>
+  <version>0.0.2</version>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <sourceDirectory>${basedir}/src/</sourceDirectory>
+    <resources>
+        <resource>
+          <directory>src/resources</directory>
+        </resource>
+      </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <repositories>
+      <!--Spigot Repo-->
+      <repository>
+          <id>spigot-repo</id>
+          <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+      </repository>
+      <!-- ProtocolSupport -->
+      <repository>
+          <id>jitpack.io</id>
+          <url>https://jitpack.io</url>
+      </repository>
+      <!-- ViaVersion -->
+      <repository>
+          <id>viaversion-repo</id>
+          <url>https://repo.viaversion.com</url>
+      </repository>
+      <!-- ProtocolLib -->
+      <repository>
+          <id>dmulloy2-repo</id>
+          <url>https://repo.dmulloy2.net/repository/public/</url>
+      </repository>
+  </repositories>
+  <dependencies>
+      <dependency>
+          <groupId>org.spigotmc</groupId>
+          <artifactId>spigot-api</artifactId>
+          <version>1.16.5-R0.1-SNAPSHOT</version>
+          <scope>provided</scope>
+      </dependency>
+	  <dependency>
+          <groupId>com.viaversion</groupId>
+          <artifactId>viaversion-api</artifactId>
+          <version>4.0.0</version>
+          <scope>provided</scope>
+      </dependency>
+	  <dependency>
+          <groupId>com.comphenix.protocol</groupId>
+          <artifactId>ProtocolLib</artifactId>
+          <version>4.6.0</version>
+      </dependency>
+      <dependency>
+	      <groupId>com.github.ProtocolSupport</groupId>
+	      <artifactId>ProtocolSupport</artifactId>
+	      <version>eafe538e35</version>
+      </dependency>
+  </dependencies>
+</project>
