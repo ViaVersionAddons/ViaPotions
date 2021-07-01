@@ -27,7 +27,7 @@
     </plugins>
   </build>
   <repositories>
-      <!--Spigot Repo-->
+      <!-- Spigot -->
       <repository>
           <id>spigot-repo</id>
           <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
@@ -67,9 +67,9 @@
           <version>4.6.0</version>
       </dependency>
       <dependency>
-	      <groupId>com.github.ProtocolSupport</groupId>
-	      <artifactId>ProtocolSupport</artifactId>
-	      <version>eafe538e35</version>
+	  <groupId>com.github.ProtocolSupport</groupId>
+	  <artifactId>ProtocolSupport</artifactId>
+	  <version>eafe538e35</version>
       </dependency>
   </dependencies>
 </project>
