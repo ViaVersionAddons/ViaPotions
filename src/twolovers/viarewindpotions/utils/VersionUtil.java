@@ -5,7 +5,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import protocolsupport.api.ProtocolSupportAPI;
 import protocolsupport.api.ProtocolType;
-import us.myles.ViaVersion.api.Via;
+import com.viaversion.viaversion.api.Via;
 
 public class VersionUtil {
 	private final Plugin protocolSupport;
