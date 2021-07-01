@@ -11,7 +11,7 @@ jobs:
     # However, it works in Java 8 up to Java 16.
     strategy:
       matrix:
-        java: 16
+        java: [16]
 
     steps:
     - name: Checkout Repository
