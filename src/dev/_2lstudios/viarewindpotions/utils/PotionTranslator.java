@@ -18,7 +18,8 @@ public enum PotionTranslator {
 	REGENERATION(PotionEffectType.REGENERATION, new TranslationData(16385, 0, 106)),
 	STRENGTH(PotionEffectType.INCREASE_DAMAGE, new TranslationData(16393, 0, 106)),
 	WEAKNESS(PotionEffectType.WEAKNESS, new TranslationData(16424, 0, 106)),
-	LUCK(PotionEffectType.LUCK, new TranslationData(16388, 0, 106));
+	LUCK(PotionEffectType.LUCK, new TranslationData(16388, 0, 106)),
+	SLOW_FALLING(PotionEffectType.SLOW_FALLING, new TranslationData(16394, 0, 106));
 
 	private PotionEffectType effect;
 	private TranslationData[] datas;
