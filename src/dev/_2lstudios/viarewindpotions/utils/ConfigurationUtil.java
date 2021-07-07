@@ -4,8 +4,6 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 
 import java.io.File;
-import java.io.InputStream;
-import java.nio.file.Files;
 
 public class ConfigurationUtil {
 	final private Plugin plugin;
@@ -20,8 +18,9 @@ public class ConfigurationUtil {
 
 		if (file.exists()) {
 			return YamlConfiguration.loadConfiguration(file);
+		} else {
+			return new YamlConfiguration();
 		}
-		else return new YamlConfiguration();
 	}
 
 }
