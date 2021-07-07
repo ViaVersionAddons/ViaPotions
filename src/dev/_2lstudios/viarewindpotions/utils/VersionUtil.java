@@ -26,13 +26,15 @@ public class VersionUtil {
 			if (protocolSupportVersion == latest && viaVersion != null) {
 				final int viaVersionVersion = getViaVersionVersion(player);
 
-				if (viaVersionVersion != latest)
+				if (viaVersionVersion != latest) {
 					return viaVersionVersion;
+				}
 			}
 
 			return protocolSupportVersion;
-		} else if (viaVersion != null)
+		} else if (viaVersion != null) {
 			return getViaVersionVersion(player);
+		}
 
 		return -1;
 	}

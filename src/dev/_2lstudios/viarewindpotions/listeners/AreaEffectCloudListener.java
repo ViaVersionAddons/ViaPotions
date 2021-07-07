@@ -21,8 +21,9 @@ public class AreaEffectCloudListener implements Listener {
 
 		plugin.getServer().getScheduler().scheduleSyncRepeatingTask(plugin, () -> {
 			for (final AreaEffectCloud cloud : effectClouds) {
-				if (cloud == null || cloud.isDead() || !cloud.isValid())
+				if (cloud == null || cloud.isDead() || !cloud.isValid()) {
 					effectClouds.remove(cloud);
+				}
 				else {
 					final Location location = cloud.getLocation();
 					final float radius = cloud.getRadius();
@@ -39,9 +40,11 @@ public class AreaEffectCloudListener implements Listener {
 						float f3 = (float) Math.cos(f1) * f2;
 						float f4 = (float) Math.sin(f1) * f2;
 
-						for (final Player player : cloud.getWorld().getPlayers())
-							if (versionUtil.getVersion(player) <= 106)
+						for (final Player player : cloud.getWorld().getPlayers()) {
+							if (versionUtil.getVersion(player) <= 106) {
 								player.spawnParticle(cloud.getParticle(), location.getX() + f3, location.getY(), location.getZ() + f4, 0, red / 255f, green / 255f, blue / 255f);
+							}
+						}
 					}
 				}
 			}

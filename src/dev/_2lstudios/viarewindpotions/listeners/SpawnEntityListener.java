@@ -39,9 +39,11 @@ public class SpawnEntityListener extends PacketAdapter {
 			for (final PotionEffect effect : potion.getEffects()) {
 				for (final PotionTranslator translator : PotionTranslator.values()) {
 					if (effect.getType().equals(translator.getPotionEffectType())) {
-						for (TranslationData data : translator.getDatas())
-							if (data.getLowestVersion() <= version && data.getHighestVersion() >= version)
+						for (TranslationData data : translator.getDatas()) {
+							if (data.getLowestVersion() <= version && data.getHighestVersion() >= version) {
 								edited.getIntegers().write(7, data.getRemap());
+							}
+						}
 					}
 				}
 			}
