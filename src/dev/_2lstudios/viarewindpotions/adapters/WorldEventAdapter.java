@@ -38,14 +38,16 @@ public class WorldEventAdapter extends PacketAdapter {
 			final PacketContainer edited = packet.deepClone();
 			final StructureModifier<Integer> editedIntegers = edited.getIntegers();
 
-			if (version <= 210)
+			if (version <= 210) {
 				editedIntegers.write(0, 2002);
+			}
 
 			for (final SplashTranslator translator : SplashTranslator.values()) {
 				if (editedIntegers.read(1) == translator.getRGB()) {
 					for (final TranslationData data : translator.getDatas()) {
-						if (data.getLowestVersion() <= version && data.getHighestVersion() >= version)
+						if (data.getLowestVersion() <= version && data.getHighestVersion() >= version) {
 							editedIntegers.write(1, data.getRemap());
+						}
 					}
 				}
 			}
