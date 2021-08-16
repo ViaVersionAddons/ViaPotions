@@ -11,10 +11,10 @@
     <finalName>${project.artifactId}</finalName>
     <sourceDirectory>${basedir}/src/</sourceDirectory>
     <resources>
-        <resource>
-          <directory>src/resources</directory>
-        </resource>
-      </resources>
+      <resource>
+        <directory>src/resources</directory>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -27,49 +27,49 @@
     </plugins>
   </build>
   <repositories>
-      <!-- Spigot -->
-      <repository>
-          <id>spigot-repo</id>
-          <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-      </repository>
-      <!-- ProtocolSupport -->
-      <repository>
-          <id>jitpack.io</id>
-          <url>https://jitpack.io</url>
-      </repository>
-      <!-- ViaVersion -->
-      <repository>
-          <id>viaversion-repo</id>
-          <url>https://repo.viaversion.com</url>
-      </repository>
-      <!-- ProtocolLib -->
-      <repository>
-          <id>dmulloy2-repo</id>
-          <url>https://repo.dmulloy2.net/repository/public/</url>
-      </repository>
+    <!-- Spigot -->
+    <repository>
+      <id>spigot-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+    <!-- ProtocolSupport -->
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+    <!-- ViaVersion -->
+    <repository>
+      <id>viaversion-repo</id>
+      <url>https://repo.viaversion.com</url>
+    </repository>
+    <!-- ProtocolLib -->
+    <repository>
+      <id>dmulloy2-repo</id>
+      <url>https://repo.dmulloy2.net/repository/public/</url>
+    </repository>
   </repositories>
   <dependencies>
-      <dependency>
-          <groupId>org.spigotmc</groupId>
-          <artifactId>spigot-api</artifactId>
-          <version>1.16.5-R0.1-SNAPSHOT</version>
-          <scope>provided</scope>
-      </dependency>
-	  <dependency>
-          <groupId>com.viaversion</groupId>
-          <artifactId>viaversion-api</artifactId>
-          <version>4.0.0</version>
-          <scope>provided</scope>
-      </dependency>
-	  <dependency>
-          <groupId>com.comphenix.protocol</groupId>
-          <artifactId>ProtocolLib</artifactId>
-          <version>4.6.0</version>
-      </dependency>
-      <dependency>
-	  <groupId>com.github.ProtocolSupport</groupId>
-	  <artifactId>ProtocolSupport</artifactId>
-	  <version>eafe538e35</version>
-      </dependency>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.16.5-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.viaversion</groupId>
+      <artifactId>viaversion-api</artifactId>
+      <version>4.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.comphenix.protocol</groupId>
+      <artifactId>ProtocolLib</artifactId>
+      <version>4.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ProtocolSupport</groupId>
+      <artifactId>ProtocolSupport</artifactId>
+      <version>eafe538e35</version>
+    </dependency>
   </dependencies>
 </project>
