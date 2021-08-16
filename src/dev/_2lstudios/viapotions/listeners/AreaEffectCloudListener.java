@@ -1,4 +1,4 @@
-package dev._2lstudios.viarewindpotions.listeners;
+package dev._2lstudios.viapotions.listeners;
 
 import org.bukkit.Location;
 import org.bukkit.entity.AreaEffectCloud;
@@ -8,7 +8,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.LingeringPotionSplashEvent;
 import org.bukkit.plugin.Plugin;
 
-import dev._2lstudios.viarewindpotions.utils.VersionUtil;
+import dev._2lstudios.viapotions.utils.VersionUtil;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

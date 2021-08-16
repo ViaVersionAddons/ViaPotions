@@ -1,4 +1,4 @@
-package dev._2lstudios.viarewindpotions.utils;
+package dev._2lstudios.viapotions.utils;
 
 public enum SplashTranslator {
 	NIGHT_VISION(2039713, new TranslationData(8356774, 0, 106), new TranslationData(5, 107, 210)),

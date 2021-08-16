@@ -1,4 +1,4 @@
-package dev._2lstudios.viarewindpotions.adapters;
+package dev._2lstudios.viapotions.adapters;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;
@@ -10,9 +10,9 @@ import com.comphenix.protocol.reflect.StructureModifier;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
-import dev._2lstudios.viarewindpotions.utils.SplashTranslator;
-import dev._2lstudios.viarewindpotions.utils.TranslationData;
-import dev._2lstudios.viarewindpotions.utils.VersionUtil;
+import dev._2lstudios.viapotions.utils.SplashTranslator;
+import dev._2lstudios.viapotions.utils.TranslationData;
+import dev._2lstudios.viapotions.utils.VersionUtil;
 
 public class WorldEventAdapter extends PacketAdapter {
 	private final VersionUtil versionUtil;

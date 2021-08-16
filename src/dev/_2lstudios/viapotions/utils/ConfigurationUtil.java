@@ -1,4 +1,4 @@
-package dev._2lstudios.viarewindpotions.utils;
+package dev._2lstudios.viapotions.utils;
 
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;

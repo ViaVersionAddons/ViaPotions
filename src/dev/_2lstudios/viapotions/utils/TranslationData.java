@@ -1,4 +1,4 @@
-package dev._2lstudios.viarewindpotions.utils;
+package dev._2lstudios.viapotions.utils;
 
 public class TranslationData {
 	private int remap, lowestVersion, highestVersion;

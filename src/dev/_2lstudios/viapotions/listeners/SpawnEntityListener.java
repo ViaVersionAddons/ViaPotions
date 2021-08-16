@@ -1,4 +1,4 @@
-package dev._2lstudios.viarewindpotions.listeners;
+package dev._2lstudios.viapotions.listeners;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;
@@ -12,9 +12,9 @@ import org.bukkit.entity.ThrownPotion;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.potion.PotionEffect;
 
-import dev._2lstudios.viarewindpotions.utils.PotionTranslator;
-import dev._2lstudios.viarewindpotions.utils.TranslationData;
-import dev._2lstudios.viarewindpotions.utils.VersionUtil;
+import dev._2lstudios.viapotions.utils.PotionTranslator;
+import dev._2lstudios.viapotions.utils.TranslationData;
+import dev._2lstudios.viapotions.utils.VersionUtil;
 
 public class SpawnEntityListener extends PacketAdapter {
 	private final VersionUtil versionUtil;
