@@ -24,10 +24,6 @@ public class WorldEventAdapter extends PacketAdapter {
 	}
 
 	@Override
-	public void onPacketReceiving(PacketEvent event) {
-	}
-
-	@Override
 	public void onPacketSending(PacketEvent event) {
 		final PacketContainer packet = event.getPacket();
 		final int effectId = packet.getIntegers().read(0);
