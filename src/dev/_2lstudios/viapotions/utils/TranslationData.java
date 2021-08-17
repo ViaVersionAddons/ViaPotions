@@ -20,5 +20,4 @@ public class TranslationData {
 	public int getHighestVersion() {
 		return highestVersion;
 	}
-
 }

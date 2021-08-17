@@ -33,5 +33,4 @@ public enum SplashTranslator {
 	public TranslationData[] getDatas() {
 		return datas;
 	}
-
 }

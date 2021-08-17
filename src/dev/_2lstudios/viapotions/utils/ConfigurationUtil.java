@@ -22,5 +22,4 @@ public class ConfigurationUtil {
 			return new YamlConfiguration();
 		}
 	}
-
 }

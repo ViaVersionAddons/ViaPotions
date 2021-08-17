@@ -36,5 +36,4 @@ public enum PotionTranslator {
 	public TranslationData[] getDatas() {
 		return datas;
 	}
-
 }
