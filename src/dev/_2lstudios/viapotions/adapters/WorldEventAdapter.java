@@ -25,6 +25,10 @@ public class WorldEventAdapter extends PacketAdapter {
 
 	@Override
 	public void onPacketSending(PacketEvent event) {
+		if (event.isPlayerTemporary()) {
+			return;
+		}
+
 		final PacketContainer packet = event.getPacket();
 		final int effectId = packet.getIntegers().read(0);
 
