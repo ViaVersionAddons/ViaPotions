@@ -6,4 +6,4 @@ api-version: 1.13
 softdepend:
   - "ViaRewind"
   - "ViaRewind-Legacy-Support"
-main: dev._2lstudios.viarewindpotions.Main
+main: dev._2lstudios.viapotions.ViaPotions
