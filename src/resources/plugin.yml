@@ -1,5 +1,5 @@
 name: ViaPotions
-version: 0.0.3
+version: 0.0.4
 description: Translates thrown potions for ViaRewind
 depend: [ProtocolLib]
 api-version: 1.13
